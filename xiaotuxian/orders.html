@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>确认订单</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/orders.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/orders.js"></script>
+</head>
+<body>
+    <!-- 弹窗内容 start -->
+    <div class="payment" id="payment">
+        <div class="cover">
+            <div class="OR">
+                <img src="upload/1648221501.jpg" alt=" ">
+            </div>
+            <div class="cancel" id="cancel">
+                <i class="iconfont icon-close"></i>
+            </div>
+        </div>
+    </div>
+    <!-- 弹窗内容  -->
+
+    <!-- 主体内容 滑动查看 start -->
+    <div class="main">
+        <div class="user-msg pannel">
+            <div class="location">
+                <i class="iconfont icon-map-filling"></i>
+            </div>
+            <div class="user">
+                <div class="top">
+                    <sapn class="name">林丽</sapn><sapn class="pho-num">17777117333</sapn>
+                </div>
+                <div class="bottom">
+                    北京市 海定区 中关村软件园 信息科技大厦1号楼410#
+                </div>
+            </div>
+            <div class="more">
+                <i class="iconfont icon-arrow-right"></i>
+            </div>
+        </div>
+        <div class="pannel goods">
+            <div class="pic">
+                <a href="#">
+                    <img src="upload/RG0AON]B08VH`@6Q23SD0QF.png" alt=" ">
+                </a>
+            </div>
+            <div class="info">
+                <div class="discription">欧志权 机器人大变活人 聪明可爱美丽大方 领券立减30元</div>
+                <div class="option">
+                    <span>五颜六色</span> <span>盗版智能机器人</span>
+                </div>
+                <div class="price">
+                    <span class="price1 red">¥<i>0.01</i></span>
+                    <span class="price2">¥<i>30.01</i></span></div>
+            </div>
+            <div class="points">
+                <i class="iconfont icon-close"></i>
+                <span>1</span>
+            </div>
+        </div>
+        <div>
+            <section class="pannel rest">
+                <div>
+                    <h5>配送方式</h5>
+                    <p>UFO</p>
+                </div>
+                <div>
+                    <h5>买家备注</h5>
+                    <p class="remark">希望是蠢一点的，谢谢！</p>
+                </div>
+                <div>
+                    <h5>支付方式</h5>
+                    <p>支付宝<i class="iconfont icon-arrow-right"></i></p>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section class="pannel tatol">
+                <div>
+                    <h5>商品总价</h5>
+                    <p>¥ 0.01</p>
+                </div>
+                <div>
+                    <h5>运费</h5>
+                    <p>¥ 0.00</p>
+                </div>
+                <div>
+                    <h5>折扣</h5>
+                    <p class="red">-¥ 30.00</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    
+    <!-- 主体内容 滑动查看 end -->
+
+    <!-- 底部支付 固定定位 start -->
+    <div class="pay" id="pay">
+        <div class="left">
+            <!-- 数值后面会从数据库中得到 是会发生变化的 需要单独放在一个标签里面 -->
+            合计：<span class="red">¥<i>0.01</i></span>
+        </div>
+        <div class="right" id="pay-button">
+            <a href="#">去支付</a>
+        </div>
+    </div>
+    <!-- 底部支付 固定定位 end -->
+</body>
+</html>
